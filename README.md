@@ -1,4 +1,9 @@
 # Sky-Prophet
+## Snapshots of the Project
+![Sky Prophet PC](image.png)
+
+In Mobile:
+![Sky Prophet Mobile](image-1.png)
 
 # HTML
 

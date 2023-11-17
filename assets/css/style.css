@@ -2,10 +2,10 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 :root {
-    --primary: #a1c3e5; 
-    --on-primary: #0b1415; 
+    --primary: #0b1415;
+    --on-primary: #a1c3e5; 
     --background: #2b282e;
-    --on-background: #EAE6F2;
+    --on-background: #9584b7;
     --surface: #323136;
     --on-surface: #DDDAE5;
     --on-surface-variant: #7B7980; 
@@ -19,7 +19,7 @@
     --on-bg-aqi-3: #332B1F;
     --bg-aqi-4: #E58989;
     --on-bg-aqi-4: #331F1F;
-    --bg-aqi-5: #E589B7;
+    --bg-aqi-5: #f61212;
     --on-bg-aqi-5: #331F29;
     --white: hsl(0, 0%, 100%);
     --white-alpha-4: hsla(0, 0%, 100%, 0.04);
