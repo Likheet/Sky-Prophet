@@ -1,8 +1,12 @@
 # Sky-Prophet
+# DEMO
+<video src="Sky%20Project%20Recording.mp4" controls title="Demo"></video>
+
 ## Snapshots of the Project
 ![Sky Prophet PC](image.png)
 
 In Mobile:
+
 ![Sky Prophet Mobile](image-1.png)
 
 # HTML
