@@ -1,20 +1,14 @@
 # Sky-Prophet
-<<<<<<< HEAD
-# DEMO
-<video src="Sky%20Project%20Recording(1).mp4" controls title="Demo Video"></video>
-=======
 #Demo Video
 
 https://github.com/Likheet/Sky-Prophet/assets/66800864/0e87713c-f833-4576-8b12-ade1cbf333ef
 
 
 
->>>>>>> 0ba500b553a3407ee7d96788f3e00a6a142511be
 ## Snapshots of the Project
 ![Sky Prophet PC](image.png)
 
 In Mobile:
-
 ![Sky Prophet Mobile](image-1.png)
 
 # HTML
