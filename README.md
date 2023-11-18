@@ -3,13 +3,15 @@
 
 https://github.com/Likheet/Sky-Prophet/assets/66800864/0e87713c-f833-4576-8b12-ade1cbf333ef
 
-
+# Also Turned the site into a Progressive Web App(PWA)
+![Screenshot (21)](https://github.com/Likheet/Sky-Prophet/assets/66800864/d262e11a-cc7a-4941-95d1-9dbc450a1483)
 
 ## Snapshots of the Project
 ![Sky Prophet PC](image.png)
 
 In Mobile:
 ![Sky Prophet Mobile](image-1.png)
+
 
 # HTML
 
