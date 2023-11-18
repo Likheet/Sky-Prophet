@@ -1,5 +1,8 @@
 'use strict';
-const api_key = 'dcff675e961a3a1b82c590f81cfe12bf';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const api_key = process.env.API_KEY;
 
 export const fetchData = (URL,callback)=>{
     fetch(`${URL}&appid=${api_key}`)
