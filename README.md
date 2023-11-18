@@ -1,17 +1,19 @@
 # Sky-Prophet
+
 #Demo Video
 
 https://github.com/Likheet/Sky-Prophet/assets/66800864/0e87713c-f833-4576-8b12-ade1cbf333ef
 
 # Also Turned the site into a Progressive Web App(PWA)
+
 ![Screenshot (21)](https://github.com/Likheet/Sky-Prophet/assets/66800864/d262e11a-cc7a-4941-95d1-9dbc450a1483)
 
 ## Snapshots of the Project
+
 ![Sky Prophet PC](image.png)
 
 In Mobile:
 ![Sky Prophet Mobile](image-1.png)
-
 
 # HTML
 
@@ -21,7 +23,7 @@ This section represents a single item in a slider. Each item is a small card tha
 
 - Wind speed
 - Wind direction (represented by an icon)
-- Temperature 
+- Temperature
 
 ## Footer (Lines 368-378)
 
@@ -94,7 +96,6 @@ The card is created using the `createElement` method and the `innerHTML` propert
 - A badge that displays the AQI level and a message related to the AQI. The message is fetched from `module.aqiText[aqi].message` and the level is fetched from `module.aqiText[aqi].level`.
 
 The card is then added to the `highlight-list` div.
-
 
 # module.js
 
