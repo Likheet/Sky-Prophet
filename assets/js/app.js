@@ -54,7 +54,7 @@ searchField.addEventListener("input",()=>{
                             <p class="item-title">${name}</p>
                             <p class="label-2 item-subtitle">${state||""} ${country}</p>
                         </div>
-                        <a href="#/weather?lat=${lat}&lon=${lon}" class="item-link has-state" aria-lable="${name} weather" data-search-toggler></a>
+                        <a href="#/weather?lat=${lat}&lon=${lon}" class="item-link has-state" aria-label="${name} weather" data-search-toggler></a>
                     `;
                     searchResult.querySelector("[data-search-list]").appendChild(searchItem);
                     items.push(searchItem.querySelector("[data-search-toggler]"))
@@ -142,7 +142,7 @@ export const updateWeather = (lat,lon)=>{
             const card=document.createElement("div");
             card.classList.add("card","card-lg");
             card.innerHTML=`
-            <h2 class="title-2" id="highlights-lable">Today Highlights</h2>
+            <h2 class="title-2" id="highlights-label">Today Highlights</h2>
             <div class="highlight-list">
                 <div class="card card-sm highlight-card one">
                     <h3 class="title-3">Air Quality Index</h3>
@@ -167,7 +167,7 @@ export const updateWeather = (lat,lon)=>{
                             </li>
                         </ul>
                     </div>
-                    <span class="badge aqi-${aqi} lable-${aqi}" title="${module.aqiText[aqi].message}">
+                    <span class="badge aqi-${aqi} label-${aqi}" title="${module.aqiText[aqi].message}">
                         ${module.aqiText[aqi].level}
                     </span> 
                 </div>
@@ -177,15 +177,15 @@ export const updateWeather = (lat,lon)=>{
                         <div class="card-list">
                             <div class="card-item">
                                 <span class="m-icon">clear_day</span>
-                                <div class="lable-1">
-                                    <p class="lable-1">Sunrise</p>
+                                <div class="label-1">
+                                    <p class="label-1">Sunrise</p>
                                     <p class="title-1">${module.getTime(sunriseUnixUTC,timezone)}</p>
                                 </div>
                             </div>
                             <div class="card-item">
                                 <span class="m-icon">clear_night</span>
-                                <div class="lable-1">
-                                    <p class="lable">Sunset</p>
+                                <div class="label-1">
+                                    <p class="label">Sunset</p>
                                     <p class="title-1">${module.getTime(sunsetUnixUTC,timezone)}</p>
                                 </div>
                             </div>

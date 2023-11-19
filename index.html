@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky Prophet</title>
-
     <meta name="title" content="Sky Prophet">
     <meta name="description" content="Sky Prophet is a weather app made by Likheet Shetty">
     <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
-    <meta name="theme-color" content="#0b1415">
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="/assets/images/icon2.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="manifest" href="./manifest.json">
     <script src="/assets/js/app.js" type="module"></script>
     <script src="/assets/js/route.js" type="module"></script>
 </head>
@@ -391,15 +385,5 @@
             <span class="span">Go Home</span>
         </a>
     </section>
-    <script>
-        if('serviceWorker' in navigator){
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/serviceworker.js')
-                .then((reg) => console.log('service worker registered', reg.scope))
-                .catch((err) => console.log('service worker not registered', err))
-            }
-            )
-        }
-    </script>
 </body>
 </html>
