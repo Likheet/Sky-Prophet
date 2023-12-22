@@ -15,7 +15,7 @@ In Mobile:
 
 # HTML
 
-## Slider Item (Lines 355-365)
+## Slider Item 
 
 This section represents a single item in a slider. Each item is a small card that displays some weather information. It includes:
 
@@ -23,24 +23,24 @@ This section represents a single item in a slider. Each item is a small card tha
 - Wind direction (represented by an icon)
 - Temperature 
 
-## Footer (Lines 368-378)
+## Footer 
 
 The footer contains two links:
 
 - A link to the GitHub profile of the developer, represented by a GitHub icon.
 - A link to the OpenWeather API, which powers the weather information in the app. This is represented by the OpenWeather icon.
 
-## Loading Screen (Lines 381-382)
+## Loading Screen 
 
 This is a loading screen that is displayed while the app fetches data.
 
-## 404 Error Page (Lines 385-392)
+## 404 Error Page 
 
 This section is displayed when a user navigates to a non-existent page. It contains a message ("Page Not Found!") and a button that redirects the user back to the home page.
 
 # CSS
 
-## Typography Classes (Lines 262-286)
+## Typography Classes 
 
 These classes are used to apply different font sizes throughout the application. They use CSS variables for the font sizes, which makes it easy to adjust the typography globally. The classes include:
 
@@ -50,7 +50,7 @@ These classes are used to apply different font sizes throughout the application.
 - `.body-1`, `.body-2`, `.body-3`: These classes are used for different levels of body text, with `.body-1` being the largest and `.body-3` being the smallest. `.body-2` also applies a semi-bold font weight.
 - `.label-1`, `.label-2`: These classes are used for label text, with `.label-1` being larger than `.label-2`.
 
-## Header Styles (Lines 291-299)
+## Header Styles 
 
 These styles are specific to the header of the application:
 
@@ -60,15 +60,15 @@ These styles are specific to the header of the application:
 
 # API
 
-## Constants (Lines 2)
+## Constants 
 
 `api_key` is a constant that holds the API key for the OpenWeatherMap API.
 
-## fetchData Function (Lines 4-8)
+## fetchData Function 
 
 `fetchData` is a function that fetches data from a given URL and then calls a callback function with the fetched data. It uses the Fetch API to make the HTTP request and expects the response to be in JSON format.
 
-## url Object (Lines 10-28)
+## url Object 
 
 `url` is an object that contains methods for generating URLs for different types of weather data:
 
@@ -80,7 +80,7 @@ These styles are specific to the header of the application:
 
 # app.js
 
-## Air Quality Index Card (Lines 137-174)
+## Air Quality Index Card 
 
 This section of the code creates a card that displays the Air Quality Index (AQI) and the levels of various pollutants. It uses data fetched from the `airPollution` object.
 
@@ -98,11 +98,11 @@ The card is then added to the `highlight-list` div.
 
 # module.js
 
-## Constants (Lines 2-19)
+## Constants 
 
 `weekDayNames` and `monthNames` are arrays that hold the names of the days of the week and the months of the year, respectively. They are used to convert date numbers into more human-readable formats.
 
-## getDate Function (Lines 22-31)
+## getDate Function 
 
 `getDate` is a function that takes a Unix timestamp and a timezone offset (both in seconds), and returns a string representing the date in the format "WeekDayName MonthName, Date" (e.g., "Sunday 10, Jan").
 
@@ -116,26 +116,26 @@ The function works as follows:
 
 # route.js
 
-## IP and Location Fetching (Lines 7-14)
+## IP and Location Fetching 
 
 This section fetches the user's IP address from the "https://api.ipify.org" API and then uses that IP address to fetch the user's location from the "https://ipinfo.io" API. The latitude and longitude are extracted from the location data and used to update the weather information.
 
-## Current Location Function (Lines 16-23)
+## Current Location Function 
 
 This function uses the Geolocation API to get the user's current location. The latitude and longitude are extracted from the location data and used to update the weather information. If the location cannot be fetched, the user is redirected to the approximate location page.
 
-## Searched Location Function (Line 24)
+## Searched Location Function 
 
 This function takes a query string, splits it into latitude and longitude, and uses them to update the weather information.
 
-## Routes (Lines 25-28)
+## Routes
 
 This is a map of routes. Each route is associated with a function that is called when the route is accessed.
 
-## Check Hash Function (Lines 29-33)
+## Check Hash Function 
 
 This function checks the current URL hash and calls the associated function from the routes map. If the route does not exist in the map, it calls the `error404` function.
 
-## Event Listeners (Lines 34-41)
+## Event Listeners 
 
 These event listeners call the `checkHash` function when the URL hash changes and when the page loads. If the page is loaded without a hash, the user is redirected to the current location page.
