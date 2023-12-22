@@ -1,5 +1,5 @@
 # Sky-Prophet
-#Demo Video
+# Demo Video
 
 https://github.com/Likheet/Sky-Prophet/assets/66800864/0e87713c-f833-4576-8b12-ade1cbf333ef
 
